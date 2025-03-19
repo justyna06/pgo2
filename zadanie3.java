@@ -2,7 +2,7 @@ public class zadanie3 {
 
     public static int[] rotateArray(int[] array, int positions) {
 
-        if (array == null || positions < 0) {
+        if (array == null || positions < 0){
             return array;
         }
         int n = array.length;
